@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale=1">
+
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+    <!--JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <title>Course Registration</title>
+</head>
+<body>
+<div class="container">
+    <h1 id="headerText">Course Registration</h1>
+    <div class="jumbotron" id="jumbo1">
+        <div class="container">
+            <div class="row" id="centerForm">
+                <div class="col"></div>
+                <div class="col colTextAlign">
+                    <form>
+                        <div class="form-group">
+                            <label>Education Level:</label>
+                            <select class="form-control" id="educationLevelSelect">
+                                <option>Associate's</option>
+                                <option>Bachelor's</option>
+                                <option>Master's</option>
+                                <option>Doctorate</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Semester:</label>
+                            <select class="form-control" id="semesterSelect">
+                                <option>Spring</option>
+                                <option>Summer</option>
+                                <option>Fall</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Degree:</label>
+                            <select class="form-control" id="degreeProgramSelect">
+                                <option>Computer Science</option>
+                                <option>Law</option>
+                                <option>Finance</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-primary pull-right" id="submitInfo" type="button"
+                                    onclick="submitClassSearch()">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron" id="jumbo2">
+        <div class="container"id="classes">
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+</body>
+</html>

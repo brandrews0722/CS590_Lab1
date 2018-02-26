@@ -1,0 +1,77 @@
+
+#educationLevelSelect, #semesterSelect, #degreeProgramSelect {
+    height: 35px;
+    min-height: fit-content;
+}
+
+select #educationLevelSelect,select #semesterSelect,select #degreeProgramSelect{
+    height: 25px;
+}
+
+div #educationLevelSelect, #semesterSelect, #degreeProgramSelect{
+    max-width: 75%;
+}
+
+#submitRow {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header5 {
+    font-weight: bold;
+    left: 0;
+    text-align: left;
+}
+
+#jumbo1, #jumbo2 {
+    background-color: cornflowerblue;
+}
+
+#jumbo2 {
+    visibility: hidden;
+}
+
+#courseImg{
+    max-height: 100px;
+    max-width: 100px;
+}
+
+#submitInfo {
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#centerForm {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.colTextAlign {
+    text-align: left;
+}
+
+.classRowBorder {
+    border-bottom: black solid 2px;
+}
+
+.img-thumbnail {
+    margin: 0 auto;
+    border: black solid 2px;
+    border-radius: 5px;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    padding-top: 1px;
+}
+
+.descriptionText, #classInfo {
+    font-family: "Bodoni MT Black";
+    font-color: white;
+}
+label, #headerText {
+    font-family: "Bodoni MT Black";
+}
